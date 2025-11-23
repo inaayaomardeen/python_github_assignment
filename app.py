@@ -12,7 +12,7 @@ except ValueError:
     exit()
 
 #Perform a calculation (weekly study estimate)
-weekly_hours + hours * 7
+weekly_hours = hours * 7
 
 #Display the result clearly
 print(f"You are on track to study approximately {weekly_hours} hours this week.")
@@ -20,3 +20,4 @@ print(f"You are on track to study approximately {weekly_hours} hours this week."
 #Encourage the user
 print("Keep up the awesome work!")
 
+#test change
